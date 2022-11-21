@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.saidarabxon.akramov.ussdkodlar.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/daqiqaFragment"
+        android:name="uz.saidarabxon.akramov.ussdkodlar.fragments.DaqiqaFragment"
+        android:label="fragment_daqiqa"
+        tools:layout="@layout/fragment_daqiqa" />
+    <fragment
+        android:id="@+id/tarifFragment"
+        android:name="uz.saidarabxon.akramov.ussdkodlar.fragments.TarifFragment"
+        android:label="fragment_tarif"
+        tools:layout="@layout/fragment_tarif" />
+    <fragment
+        android:id="@+id/aboutTarifFragment"
+        android:name="uz.saidarabxon.akramov.ussdkodlar.fragments.AboutTarifFragment"
+        android:label="fragment_about_tarif"
+        tools:layout="@layout/fragment_about_tarif" />
+    <fragment
+        android:id="@+id/internetFragment"
+        android:name="uz.saidarabxon.akramov.ussdkodlar.fragments.InternetFragment"
+        android:label="fragment_internet"
+        tools:layout="@layout/fragment_internet" />
+</navigation>

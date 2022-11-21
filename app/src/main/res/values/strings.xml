@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ussd kodlar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tarif_rejalar">Tarif Rejalar</string>
+    <string name="daqiqalar">Daqiqalar</string>
+    <string name="srart_10">Srart 10</string>
+    <string name="o_zbekiston_bo_ylab_200_n_narxi_4000_so_m_n_amal_qilish_muddati_30">O\'zbekiston bo\'ylab 200 \n Narxi: 4000 so\'m \n Amal qilish muddati 30</string>
+    <string name="faollashtirish">Faollashtirish</string>
+</resources>
